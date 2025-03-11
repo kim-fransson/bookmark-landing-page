@@ -1,0 +1,13 @@
+@import "@fontsource-variable/rubik";
+@import "tailwindcss";
+
+@plugin "tailwindcss-react-aria-components";
+
+@theme {
+  --default-font-family: "Rubik Variable", "sans-serif";
+
+  --color-primary: oklch(0.68 0.2 23.99);
+  --color-secondary: oklch(0.56 0.18 271.76);
+  --color-dark: oklch(0.29 0.05 273.41);
+  --color-muted: oklch(0.67 0.02 276.18);
+}
