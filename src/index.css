@@ -9,5 +9,19 @@
   --color-primary: oklch(0.68 0.2 23.99);
   --color-secondary: oklch(0.56 0.18 271.76);
   --color-dark: oklch(0.29 0.05 273.41);
+  --color-neutral: oklch(0.98 0 0);
   --color-muted: oklch(0.67 0.02 276.18);
+
+  --shadow-button: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+
+  --inset-shadow-primary-button: 0 0 48px 48px inset var(--color-primary);
+  --inset-shadow-active-primary-button: 0 0 0 2px inset var(--color-primary);
+
+  --inset-shadow-secondary-button: 0 0 48px 48px inset var(--color-secondary);
+  --inset-shadow-active-secondary-button: 0 0 0 2px inset var(--color-secondary);
+
+  --inset-shadow-neutral-button: 0 0 48px 48px inset var(--color-neutral);
+  --inset-shadow-active-neutral-button: 0 0 0 2px inset var(--color-muted);
+
+  --radius: 5px;
 }
