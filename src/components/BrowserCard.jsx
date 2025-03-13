@@ -21,16 +21,23 @@ const card = tv({
 
 const { base, icon, h3, small, dottedLine, button } = card();
 
+const renderBrowserIcon = (browser) => {
+  switch (browser) {
+    case "chrome":
+      return <Chrome className={icon()} />;
+    case "firefox":
+      return <Firefox className={icon()} />;
+    case "opera":
+      return <Opera className={icon()} />;
+    default:
+      return null;
+  }
+};
+
 const BrowserCard = ({ headline, minVersion, browser, className, ...rest }) => {
   return (
     <article {...rest} className={base(className)}>
-      {browser === "chrome" ? (
-        <Chrome className={icon()} />
-      ) : browser === "firefox" ? (
-        <Firefox className={icon()} />
-      ) : browser === "opera" ? (
-        <Opera className={icon()} />
-      ) : null}
+      {renderBrowserIcon(browser)}
       <h3 className={h3()}>{headline}</h3>
       <small className={small()}>{`Minimum version ${minVersion}`}</small>
       <DottedLine className={dottedLine()} />
