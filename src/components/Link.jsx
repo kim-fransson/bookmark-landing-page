@@ -3,7 +3,7 @@ import { tv } from "tailwind-variants";
 
 const link = tv({
   base: [
-    "cursor-pointer uppercase rounded transition-all duration-300 tracking-widest hover:text-primary",
+    "cursor-pointer text-dark uppercase rounded transition-all duration-300 tracking-widest hover:text-primary",
     "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500",
     "lg:text-base text-xl",
   ],

@@ -9,7 +9,7 @@ import Opera from "../assets/images/logo-opera.svg?react";
 const card = tv({
   slots: {
     base: [
-      "max-w-[280px] h-[371px] bg-white shadow-card rounded-2xl flex flex-col px-6 pb-6 pt-12",
+      "max-w-[280px] text-dark h-[371px] bg-white shadow-card rounded-2xl flex flex-col px-6 pb-6 pt-12",
     ],
     icon: ["size-[100px] mx-auto mb-8"],
     h3: ["text-xl font-medium text-center mb-1 tracking-wide"],
