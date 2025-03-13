@@ -13,6 +13,7 @@
   --color-muted: oklch(0.67 0.02 276.18);
 
   --shadow-button: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+  --shadow-card: 0px 10px 20px -5px rgba(73, 93, 207, 0.20012);
 
   --inset-shadow-primary-button: 0 0 48px 48px inset var(--color-primary);
   --inset-shadow-active-primary-button: 0 0 0 2px inset var(--color-primary);
@@ -24,4 +25,5 @@
   --inset-shadow-active-neutral-button: 0 0 0 2px inset var(--color-muted);
 
   --radius: 5px;
+  --radius-2xl: 15px;
 }
