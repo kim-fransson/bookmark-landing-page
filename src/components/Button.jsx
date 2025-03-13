@@ -9,17 +9,15 @@ import click from "../assets/sound/button-click.wav";
 
 const button = tv({
   base: [
-    "text-dark shadow-button font-medium px-4 tracking-widest cursor-pointer rounded h-12 text-center transition-all duration-300",
+    "text-dark shadow-button inset-shadow-[0px_0px_48px_48px] font-medium px-4 relative tracking-widest cursor-pointer rounded h-12 text-center transition-all duration-300",
     "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 pressed:scale-95",
+    "hover:inset-shadow-[0px_0px_0px_2px]",
   ],
   variants: {
     color: {
-      primary:
-        "text-white inset-shadow-primary-button hover:inset-shadow-active-primary-button hover:text-primary",
-      secondary:
-        "text-white inset-shadow-secondary-button hover:inset-shadow-active-secondary-button hover:text-secondary",
-      neutral:
-        "text-dark inset-shadow-neutral-button hover:inset-shadow-active-neutral-button",
+      primary: "text-white inset-shadow-primary hover:text-primary",
+      secondary: "text-white inset-shadow-secondary hover:text-secondary",
+      neutral: "text-dark/80 inset-shadow-neutral hover:inset-shadow-muted",
     },
   },
   defaultVariants: {
