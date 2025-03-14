@@ -10,7 +10,7 @@
   --color-secondary: oklch(0.56 0.18 271.76);
   --color-dark: oklch(0.29 0.05 273.41);
   --color-neutral: oklch(0.98 0 0);
-  --color-muted: oklch(0.67 0.02 276.18);
+  --color-muted: oklch(0.67 0.02 279.35);
 
   --shadow-button: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
   --shadow-card: 0px 10px 20px -5px rgba(73, 93, 207, 0.20012);
